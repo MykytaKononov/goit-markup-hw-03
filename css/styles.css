@@ -1,0 +1,107 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  margin: 0px;
+  font-family: 'roboto', sans-serif;
+  color: rgba(46, 47, 66, 1);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+ul {
+  margin: 0px;
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+img {
+  display: block;
+}
+.container {
+  max-width: 1440px;
+  padding: 0 156px;
+  margin: 0 auto;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  height: 72px;
+  align-items: center;
+}
+.header-container p {
+  font-size: 18px;
+  font-weight: 700px;
+  line-height: 21px;
+  font-family: 'raleway';
+  padding-right: 76px;
+}
+.header-container span {
+  color: rgba(77, 90, 229, 1);
+}
+.navigation {
+  gap: 40px;
+  font-weight: 500px;
+  padding-right: 332px;
+}
+.header-container address {
+  font-style: normal;
+}
+.header-container address ul {
+  white-space: nowrap;
+  gap: 40px;
+}
+.header-container address a {
+  font-weight: 400;
+}
+main {
+  height: 100vh;
+}
+.hero-container {
+  background-color: rgba(46, 47, 66, 1);
+  height: 600px;
+  text-align: center;
+}
+.hero-container h1 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  padding-top: 188px;
+  padding-bottom: 64px;
+}
+.hero-container button {
+  width: 169px;
+  height: 56px;
+  background-color: rgba(77, 90, 229, 1);
+  color: white;
+  border-radius: 4px;
+  border: 0px;
+}
+.container-features {
+  height: 344px;
+}
+.container-features ul {
+  padding-top: 120px;
+  gap: 24px;
+}
+.container-features h2 {
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 8px;
+}
+.container-features p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.container-team {
+  height: 732px;
+  background-color: rgba(244, 244, 253, 1);
+}
