@@ -80,7 +80,6 @@ img {
 .hero-container {
   background-color: rgba(46, 47, 66, 1);
   height: 600px;
-  text-align: center;
   padding: 188px 0 188px;
 }
 .hc-h {
@@ -89,10 +88,15 @@ img {
   font-size: 56px;
   font-weight: 700;
   line-height: 60px;
-  padding-top: 188px;
-  margin-bottom: 64px;
+  padding-bottom: 64px;
+  text-align: center;
+  margin: auto;
 }
 .hc-button {
+  min-width: 169px;
+  cursor: pointer;
+  margin: auto;
+  display: block;
   width: 169px;
   height: 56px;
   background-color: rgba(77, 90, 229, 1);
@@ -103,6 +107,7 @@ img {
 }
 .container-features {
   height: 344px;
+  padding: 120px 0 120px;
 }
 .container-features ul {
   gap: 24px;
@@ -117,6 +122,7 @@ img {
   font-weight: 400;
 }
 .container-team {
+  padding: 120px 0 120px;
   height: 732px;
   background-color: rgba(244, 244, 253, 1);
 }
@@ -125,10 +131,10 @@ img {
   font-weight: 700;
   line-height: 40px;
   text-align: center;
+  margin-bottom: 72px;
 }
 .container-team ul {
   gap: 24px;
-  margin-top: 72px;
 }
 .container-team li {
   background-color: white;
@@ -153,7 +159,7 @@ img {
   padding-bottom: 32px;
 }
 .container-portfolio {
-  padding-bottom: 0px;
+  padding: 120px 0 120px;
   height: 1240px;
 }
 .container-portfolio h2 {
