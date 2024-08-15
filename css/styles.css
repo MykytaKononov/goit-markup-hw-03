@@ -72,7 +72,9 @@ img {
   display: flex;
   gap: 40px;
 }
-
+.hidden {
+  visibility: hidden;
+}
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -106,13 +108,15 @@ img {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .container-features {
-  height: 344px;
   padding: 120px 0 120px;
 }
-.container-features ul {
+.container-features-ul {
+  display: flex;
   gap: 24px;
 }
-.container-features h2 {
+
+.container-features-h3 {
+  width: calc((100% - 72px) / 4);
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 8px;
@@ -123,34 +127,38 @@ img {
 }
 .container-team {
   padding: 120px 0 120px;
-  height: 732px;
   background-color: rgba(244, 244, 253, 1);
 }
-.container-team h2 {
+.container-team-h2 {
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
   text-align: center;
   margin-bottom: 72px;
 }
-.container-team ul {
+.container-team-ul {
   gap: 24px;
 }
-.container-team li {
+.container-team-li {
   background-color: white;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
   box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-.container-team h3 {
+.container-team-div {
+  padding: 32px 0 32px;
+}
+
+.container-team-h3 {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
   text-align: center;
   padding-top: 32px;
+  margin-bottom: 8px;
 }
-.container-team p {
+.container-team-p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -162,26 +170,30 @@ img {
   padding: 120px 0 120px;
   height: 1240px;
 }
-.container-portfolio h2 {
+.container-portfolio-h2 {
+  margin-bottom: 72px;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
 }
-.container-portfolio ul:not(.card-content) {
-  margin-top: 72px;
-  gap: 24px;
+.container-portfolio-ul {
+  column-gap: 24px;
+  row-gap: 48px;
   flex-wrap: wrap;
 }
+.container-portfolio-li {
+  width: calc((100% - 48px) / 3);
+}
 .card-content {
+  padding: 32px 16px;
   border: 1px solid rgba(231, 233, 252, 1);
+  border-top: none;
   display: flex;
   flex-direction: column;
 }
 .card-content h3 {
-  padding-top: 32px;
   margin-bottom: 8px;
-  padding-left: 16px;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
