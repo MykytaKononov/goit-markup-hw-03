@@ -81,16 +81,18 @@ img {
   background-color: rgba(46, 47, 66, 1);
   height: 600px;
   text-align: center;
+  padding: 188px 0 188px;
 }
-.hero-container h1 {
+.hc-h {
   color: rgba(255, 255, 255, 1);
+  max-width: 496px;
   font-size: 56px;
   font-weight: 700;
   line-height: 60px;
   padding-top: 188px;
   margin-bottom: 64px;
 }
-.hero-container button {
+.hc-button {
   width: 169px;
   height: 56px;
   background-color: rgba(77, 90, 229, 1);
