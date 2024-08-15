@@ -26,8 +26,8 @@ img {
   display: block;
 }
 .container {
-  max-width: 1440px;
-  padding: 0 156px;
+  width: 1158px;
+  padding: 0 15px 0 15px;
   margin: 0 auto;
 }
 .header-container {
@@ -35,6 +35,8 @@ img {
   flex-direction: row;
   height: 72px;
   align-items: center;
+}
+.header {
   border-bottom: 1px solid rgba(231, 233, 252, 1);
 }
 .logo {
@@ -51,20 +53,24 @@ img {
   color: white;
 }
 .navigation {
-  gap: 40px;
+  display: flex;
+  align-items: center;
   font-weight: 500px;
   margin-right: 332px;
 }
-.header-container address {
-  font-style: normal;
-}
-.header-container address ul {
-  white-space: nowrap;
+.menu {
+  display: flex;
   gap: 40px;
 }
-.header-container address a {
-  font-weight: 400;
+.menu-link {
+  padding: 24px 0 24px;
 }
+.address-list {
+  font-style: normal;
+  display: flex;
+  gap: 40px;
+}
+
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
