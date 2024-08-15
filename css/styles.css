@@ -74,11 +74,10 @@ img {
 }
 .hidden {
   visibility: hidden;
+  pointer-events: none;
+  position: absolute;
 }
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+
 .hero-container {
   background-color: rgba(46, 47, 66, 1);
   height: 600px;
@@ -115,7 +114,7 @@ img {
   gap: 24px;
 }
 
-.container-features-h3 {
+.container-features-h {
   width: calc((100% - 72px) / 4);
   font-size: 20px;
   font-weight: 500;
@@ -129,7 +128,7 @@ img {
   padding: 120px 0 120px;
   background-color: rgba(244, 244, 253, 1);
 }
-.container-team-h2 {
+.container-team-h-main {
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
@@ -150,7 +149,7 @@ img {
   padding: 32px 0 32px;
 }
 
-.container-team-h3 {
+.container-team-h {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -168,9 +167,8 @@ img {
 }
 .container-portfolio {
   padding: 120px 0 120px;
-  height: 1240px;
 }
-.container-portfolio-h2 {
+.container-portfolio-h {
   margin-bottom: 72px;
   text-align: center;
   font-size: 36px;
@@ -207,11 +205,6 @@ img {
 }
 .footer {
   padding: 100px 0 100px;
-}
-.container-footer {
-  padding-top: 100px;
-  padding-left: 156px;
-  height: 312px;
   background-color: rgba(46, 47, 66, 1);
 }
 .tagline {
