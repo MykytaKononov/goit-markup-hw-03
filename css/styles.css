@@ -51,6 +51,8 @@ img {
 }
 .logo-alt {
   color: white;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .navigation {
   display: flex;
@@ -149,6 +151,7 @@ img {
   padding-bottom: 32px;
 }
 .container-portfolio {
+  padding-bottom: 0px;
   height: 1240px;
 }
 .container-portfolio h2 {
@@ -182,16 +185,17 @@ img {
   line-height: 24px;
   padding-bottom: 32px;
 }
+.footer {
+  padding: 100px 0 100px;
+}
 .container-footer {
+  padding-top: 100px;
+  padding-left: 156px;
   height: 312px;
   background-color: rgba(46, 47, 66, 1);
 }
-.container-footer .logo {
-  padding-top: 100px;
-}
 .tagline {
   color: white;
-  margin-top: 16px;
   width: 264px;
   font-weight: 400;
 }
