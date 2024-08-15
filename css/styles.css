@@ -81,6 +81,8 @@ img {
   overflow: hidden;
   border: 0;
   clip: rect(0 0 0 0);
+  white-space: nowrap;
+  clip-path: inset(100%);
 }
 
 .hero-container {
